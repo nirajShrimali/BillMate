@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "355904195001",
+    "project_id": "billmate-7ba0b",
+    "storage_bucket": "billmate-7ba0b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355904195001:android:7fd734d193c3a1afa10e68",
+        "android_client_info": {
+          "package_name": "com.example.billmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355904195001-14estbldvfc2tliovnhau77ncsda36lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.billmate",
+            "certificate_hash": "823b2aa5205e86d13a7a1307280bd2706c458349"
+          }
+        },
+        {
+          "client_id": "355904195001-1rog62n6do85886aqo1cg3bh1cv8p3el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdyGz6N59Vs_IxpHc7ISNX6mKi5-CoLPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355904195001-1rog62n6do85886aqo1cg3bh1cv8p3el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

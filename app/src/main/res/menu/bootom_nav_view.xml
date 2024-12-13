@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/scanFragment"
+        android:title="Scan"
+        android:icon="@drawable/baseline_qr_code_scanner_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/customersFragment"
+        android:title="Customers"
+        android:icon="@drawable/baseline_people_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dataFragment"
+        android:title="Data"
+        android:icon="@drawable/baseline_bar_chart_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accountFragment"
+        android:title="You"
+        android:icon="@drawable/baseline_account_circle_24"
+        app:showAsAction="ifRoom" />
+</menu>

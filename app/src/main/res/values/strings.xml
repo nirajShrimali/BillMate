@@ -1,0 +1,17 @@
+<resources>
+    <string name="login_here">Login here</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="google">Google</string>
+    <string name="or_register_with">Or Register with</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="hello_register_to_get_started">Hello! Register to get started</string>
+    <string name="welcome_back_glad_to_see_you_again">Welcome back! Glad to see you, Again!</string>
+    <string name="app_name">BillMate</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">355904195001-1rog62n6do85886aqo1cg3bh1cv8p3el.apps.googleusercontent.com</string>
+
+</resources>

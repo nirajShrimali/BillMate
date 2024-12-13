@@ -1,0 +1,52 @@
+[versions]
+agp = "8.5.1"
+cameraCore = "1.4.0"
+common = "18.11.0"
+core = "1.46.0"
+faceDetectionVersion = "17.0.1"
+googleFirebaseAuthVersion = "22.0.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+materialVersion = "1.9.0"
+playServicesAuth = "21.2.0"
+volley = "1.2.1"
+zxingAndroidEmbedded = "4.3.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.1.0"
+firebaseStorage = "21.0.1"
+firebaseDatabase = "21.0.0"
+playServicesMlkitFaceDetection = "17.1.0"
+
+[libraries]
+camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraCore" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCore" }
+common = { module = "com.google.mlkit:common", version.ref = "common" }
+core = { module = "com.google.ar:core", version.ref = "core" }
+google-firebase-auth-v2200 = { module = "com.google.firebase:firebase-auth", version.ref = "googleFirebaseAuthVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+mlkit-face-detection = { module = "com.google.mlkit:face-detection", version.ref = "faceDetectionVersion" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+play-services-mlkit-face-detection = { group = "com.google.android.gms", name = "play-services-mlkit-face-detection", version.ref = "playServicesMlkitFaceDetection" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

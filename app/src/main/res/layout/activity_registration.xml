@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".Registration">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello! Register to get started"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Input Fields -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundColor="@android:color/white"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:padding="16dp"
+                android:id="@+id/username"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/gray"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundColor="@android:color/white"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:padding="16dp"
+                android:id="@+id/email"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/gray"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundColor="@android:color/white"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:padding="16dp"
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/gray"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxStrokeColor="@color/primary_color"
+            app:boxBackgroundColor="@android:color/white"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:padding="16dp"
+                android:inputType="textPassword"
+                android:id="@+id/confirmPassword"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/gray"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@android:color/white"
+            android:id="@+id/register"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/squre_btn"/>
+    </LinearLayout>
+
+    <!-- Alternative Sign-In Option -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_register_with"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleSignIn"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/google"
+        android:background="@drawable/squre_btn"
+        android:textAllCaps="false"
+        android:padding="14dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/google_icon"/>
+
+    <!-- Navigation to Login -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_here"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primary_color"
+            android:id="@+id/txtLoginNow"
+            android:padding="4dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

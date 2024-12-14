@@ -90,10 +90,6 @@ Enabling push notifications for low inventory alerts.
 
 Setup and Installation
 
-Clone the repository:
-
-git clone https://github.com/your-username/BillMate.git
-
 Open the project in Android Studio.
 
 Configure Firebase for the app (follow the Firebase setup guide).

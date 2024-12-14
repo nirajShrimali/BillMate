@@ -17,7 +17,7 @@ Bill Mate enables users to scan product barcodes directly using their phone came
 
 All product and sales data are securely stored in Firebase. This ensures real-time updates and robust data storage.
 
-<img width="960" alt="BillMate6" src="https://github.com/user-attachments/assets/bab7130f-437a-4771-8df4-f3f7cf26f7c9" />
+<img width="100" alt="BillMate6" src="https://github.com/user-attachments/assets/bab7130f-437a-4771-8df4-f3f7cf26f7c9" />
 
 
 3. Sales Data Management

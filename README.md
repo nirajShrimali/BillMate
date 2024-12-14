@@ -1,4 +1,4 @@
-<img width="960" alt="BillMate1" src="https://github.com/user-attachments/assets/73de5428-9f7f-4b83-a9b5-62b5d3faf731" />
+<img width="800" alt="BillMate1" src="https://github.com/user-attachments/assets/73de5428-9f7f-4b83-a9b5-62b5d3faf731" />
 
 
 Bill Mate is an innovative app that allows users to list products by scanning their barcodes using a phone camera and add them to a customer's online Firebase-based bill book. The app provides functionalities for tracking sales data, as well as user authentication through a login and registration system integrated with Firebase.
@@ -17,7 +17,7 @@ Bill Mate enables users to scan product barcodes directly using their phone came
 
 All product and sales data are securely stored in Firebase. This ensures real-time updates and robust data storage.
 
-<img width="100" alt="BillMate6" src="https://github.com/user-attachments/assets/bab7130f-437a-4771-8df4-f3f7cf26f7c9" />
+<img width="550" alt="BillMate6" src="https://github.com/user-attachments/assets/bab7130f-437a-4771-8df4-f3f7cf26f7c9" />
 
 
 3. Sales Data Management
